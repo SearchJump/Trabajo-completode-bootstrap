@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.fondo-negro {
+  height: 200px;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.pestanas {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;/* aqui se cambia a espacios*/
+
+  align-items: center;
+  
+}
+
+.pestana {
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+   /* flex-wrap: 1; esto es para expander todo*/
+}
+
+.pestana:hover {
+  background-color: gray;
+}
+
+
+
